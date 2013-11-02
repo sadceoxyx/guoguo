@@ -1,0 +1,157 @@
+.message {
+	padding: 8px 35px 8px 14px;
+	margin: 18px 0;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	background-color: #fcf8e3;
+	border: 1px solid #fbeed5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.success {
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+
+table.pricetable {
+	width: 100%;
+}
+
+.pricetable th.feedtitle {
+	text-align: left;
+	padding: 2px 10px 2px 0;
+}
+
+.pricetable tr.normal th, .pricetable tr.normal td {
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #eee;
+}
+
+.pricetable tr.first th, .pricetable tr.first td {
+	border-bottom: 1px solid #ddd;
+}
+
+.pricetable tr.last th, .pricetable tr.last td {
+	border-top: 1px solid #eee;
+}
+
+.pricetable td.feedprice {
+	text-align: right;
+	padding: 2px 0;
+}
+
+#icon-feeds {
+    background-image: url('images/icon32.png');
+}
+
+#ap_main {
+	width: 70%;
+	float: left;
+	margin-right: 5%;
+}
+
+#ap_sidebar {
+	width: 20%;
+	float: left;
+}
+
+#ap_sidebar a {
+	text-decoration: none;
+}
+
+.clr {
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+	display: block;
+}
+
+#ap_donate {
+	border: 3px solid #bada55;
+}
+
+.ap_center {
+	text-align: center;
+}
+
+.ap_close {
+	padding-right: 15px;
+}
+
+.ap_message_close {
+	float: right;
+	display: block;
+	background: transparent url('images/close.png') no-repeat right top;
+	width: 16px;
+	height: 16px;
+	font-size: 0;
+	line-height: 0;
+	text-indent: -9999px;
+}
+
+#ap_dashboard .table {
+	width: 48%;
+	float: left;
+	margin-right: 4%;
+}
+
+#ap_dashboard .last {
+	margin-right: 0;
+}
+
+#ap_dashboard p {
+	color: #8f8f8f;
+    font-size: 14px;
+    left: 15px;
+    padding: 5px 0;
+    border-bottom: 1px solid #dfdfdf;
+    margin: -5px 0 5px 0;
+}
+
+#ap_dashboard td {
+	color: #777777;
+	font-size: 12px;
+	padding: 6px 12px 0 0;
+	white-space: nowrap;
+}
+
+#ap_dashboard td.first {
+	font-family: Georgia, "Times New Roman", "Bitstream Charter", Times,serif;
+	font-size: 18px;
+	padding: 0 12px 0 0;
+	text-align: right;
+}
+
+#ap_dashboard a {
+	text-decoration: none;
+}
+
+#ap_dashboard .green {
+	color: green;
+}
+
+#ap_dashboard .yellow {
+	color: #e66f00;
+}
+
+#ap_dashboard .red {
+	color: red;
+}
+
+#ap_contact li {
+	padding-left: 26px;
+	line-height: 18px;
+}
+
+#ap_contact .lifacebook {
+	background: transparent url('images/facebook.png') no-repeat left center;
+}
+
+#ap_contact .litwitter {
+	background: transparent url('images/twitter.png') no-repeat left center;
+}
+
+#ap_contact .limail {
+	background: transparent url('images/mail.png') no-repeat left center;
+}

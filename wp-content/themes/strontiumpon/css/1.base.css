@@ -1,0 +1,95 @@
+
+
+/* = 1.base.css
+--------------------------------------------------- */
+
+
+/* = HTML Tag Rules
+--------------------------------------------------- */
+
+body {
+	margin: 0;
+	padding: 0;
+/*	background: transparent url('../images/bg.jpg') left top repeat;*/
+	font: normal 14px/20px Helvetica, Arial, sans-serif;
+	color: #333;
+}
+form {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+blockquote {
+	margin: 16px 0;
+	padding: 16px 32px;
+	border: 1px solid #c8c8c8; 
+	background: #eee none;
+}
+blockquote blockquote { 
+	border-color: #c8c8c8; 
+	background: #fefefe none;
+}
+blockquote blockquote blockquote { 
+	border-color: #c8c8c8; background: #eee none;
+}
+iframe {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+/*	font-weight: normal;
+	font-family: 'Luckiest Guy', serif;*/
+        font: 15px Georgia,serif;
+	display: block;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+p {
+	display: block;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+a {
+	outline: 0;
+}
+a:link, a:visited { 
+	color: #039; 
+	text-decoration: none;
+}
+a:hover, a:active { 
+	color: darkred; 
+	text-decoration: underline;
+}
+a img {
+	border: 0 none;
+}
+abbr {
+	border: 0 none;
+}
+input,
+button,
+select,
+option {
+	font: normal 12px/18px Helvetica, Arial, sans-serif;
+}
+
+
+/* = Theme Specific Rules
+---------------------------------------------------*/
+
+.clear {
+	clear: both;
+}
+.no-display {
+	display: none;
+}
+p.breadcrumb {
+	margin: 0 0 15px 0;
+	font: normal 10px/14px Helvetica, Arial, sans-serif;
+}

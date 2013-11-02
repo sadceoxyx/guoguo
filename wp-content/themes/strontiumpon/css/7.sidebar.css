@@ -1,0 +1,183 @@
+
+
+/* = 7.sidebar.css
+--------------------------------------------------- */
+
+
+/* = Sidebar General Rules
+--------------------------------------------------- */
+
+div#sidebar h2 {
+	display: none;
+}
+div#sidebar .box {
+	margin: 0 0 20px 0;
+	font: normal 12px/18px 'Lucida Sans', 'Lucida Grande', sans-serif;
+}
+div#sidebar .box a { 
+	text-decoration: none; 
+	color: #333;
+/*	text-shadow: 1px 1px #000;*/
+}
+div#sidebar .box a:hover {
+	color: darkred;
+/*	text-shadow: 1px 1px #000;*/
+}
+div#sidebar .box .title {
+	border: 1px solid #fff;
+        border-radius: 5px;
+	padding: 10px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333), to(#555));
+        background: -webkit-linear-gradient(top, #555, #333);
+        background: -moz-linear-gradient(top, #555, #333);
+        background: -ms-linear-gradient(top, #555, #333);
+        background: -o-linear-gradient(top, #555, #333);
+}
+div#sidebar .box .title h3 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	text-shadow: 1px 1px #2b4710;
+        font:15px/19px "Helvetica Neue", Helvetica, Geogia, serif;
+}
+div#sidebar .box ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+        font:15px/19px "Helvetica Neue", Helvetica, Geogia, serif;
+}
+div#sidebar .box ul li {
+	display: block;
+	margin: 0;
+	padding: 5px 0;
+	border-bottom: 1px dotted #7c976b;
+        font:15px/19px "Helvetica Neue", Helvetica, Geogia, serif;
+}
+div#sidebar .box ul ul {
+	display: block;
+	margin: 5px 0 -6px 0;
+	border-top: 1px dotted #7c976b;
+}
+div#sidebar .box ul ul li {
+	padding: 5px 0 5px 2em;
+}
+div#sidebar .box ul ul ul {
+	margin: 5px 0 -6px -2em;
+}
+div#sidebar .box ul ul ul li {
+	padding: 5px 0 5px 4em;
+}
+div#sidebar .box ul ul ul ul {
+	margin: 5px 0 -6px -4em;
+}
+div#sidebar .box ul ul ul ul li {
+	padding: 5px 0 5px 6em;
+}
+div#sidebar .box ul ul ul ul ul {
+	margin: 5px 0 -6px -6em;
+}
+div#sidebar .box ul ul ul ul ul li {
+	padding: 5px 0 5px 8em;
+}
+div#sidebar .box ul ul ul ul ul ul {
+	margin: 5px 0 -6px -8em;
+}
+div#sidebar .box ul ul ul ul ul ul li {
+	padding: 5px 0 5px 10em;
+}
+
+
+/* = Advertisement
+--------------------------------------------------- */
+
+div#sidebar .box-ads .title {
+	display: none;
+}
+div#sidebar .box-ads .interior {
+	padding: 0;
+}
+
+
+/* = Social Networking
+--------------------------------------------------- */
+
+div#sidebar .box-socialnet ul {
+	padding: 10px 0 0 0;
+}
+div#sidebar .box-socialnet ul li { 
+	float: left; 
+	width: 32px; 
+	height: 32px; 
+	margin: 0 18px 0 0; 
+	padding: 0; 
+	border-bottom: 0 none;
+}
+div#sidebar .box-socialnet ul li a { 
+	display: block; 
+	width: 32px; 
+	height: 32px; 
+	text-indent: -999999px; 
+	margin: 0; 
+	padding: 0; 
+}
+div#sidebar .box-socialnet ul li.mail { 
+	background: transparent url('../images/icon-sn-mail.png') left top no-repeat; 
+}
+div#sidebar .box-socialnet ul li.facebook { 
+	background: transparent url('../images/icon-sn-facebook.png') left top no-repeat; 
+}
+div#sidebar .box-socialnet ul li.rss { 
+	background: transparent url('../images/icon-sn-rss.png') left top no-repeat; 
+}
+div#sidebar .box-socialnet ul li.twitter { 
+	background: transparent url('../images/icon-sn-twitter.png') left top no-repeat; 
+}
+
+
+/* = Popular Posts
+--------------------------------------------------- */
+
+div#sidebar .box-popular-posts .interior ul { 
+	display: block; 
+	margin: 16px 0 0 0; 
+	padding: 0; 
+	list-style: none; 
+}
+div#sidebar .box-popular-posts .interior ul li { 
+	min-height: 57px; 
+	margin: 0 0 16px 0; 
+	padding: 0; 
+	border-bottom: 0 none;
+}
+div#sidebar .box-popular-posts .interior ul li img { 
+	float: left; 
+}
+div#sidebar .box-popular-posts .interior ul li span.wpp-post-title { 
+	display: block; 
+	margin: 0 0 0 67px; 
+	font-size: 12px; 
+	line-height: 16px; 
+	font-weight: bold;
+}
+div#sidebar .box-popular-posts .interior ul li span.post-stats { 
+	display: block; 
+	margin: 0 0 0 67px; 
+	font-weight: normal; 
+	font-size: 10px; 
+	line-height: 14px;
+	color: #406612;
+}
+
+
+/* = Facebook Like Box
+--------------------------------------------------- */
+
+div#sidebar .box-fb-like .title {
+	display: none;
+}
+div#sidebar .box-fb-like .interior {
+	padding: 0;
+	background: #fff none;
+}
+

@@ -1,0 +1,94 @@
+
+
+/* = 3.header.css
+--------------------------------------------------- */
+
+
+/* = Advertisement
+--------------------------------------------------- */
+
+div#header-ads {
+	text-align: center;
+	padding: 5px;
+/*	background: transparent url('../images/bg-header-ads.jpg') left top repeat;*/
+}
+
+
+/* = Header, Blog Title and Slogan.
+--------------------------------------------------- */
+
+div#header {
+/*	background: transparent url('../images/bg-header.gif') left top repeat-x;*/
+	height: 90px;
+}
+div#header-pad {
+	width: 960px;
+	margin: 0 auto;
+}
+div#header h3 {
+	display: none;
+}
+div#header .box-masthead {
+	height: 78px;
+	float: left;
+}
+div#header .title {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+div#header .title a {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 430px;
+	height: 98px;
+	line-height: 98px;
+	text-indent: -999999px;
+	background: transparent url('../images/site-name.png') left top no-repeat;
+	outline: none;
+}
+div#header .description {
+	display: none;
+}
+
+
+/* = Search Form
+--------------------------------------------------- */
+
+div#header .box-search {
+	float: right;
+	margin: 20px 0 0 0;
+}
+div#header .box-search p {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+div#header .box-search label {
+	display: none;
+}
+div#header .box-search input {
+        border: 0 none;
+        width: 200px;
+        margin: 0;
+        padding: 10px 21px;
+        float: left;
+        color: black;
+        text-shadow: 1px 1px white;
+        background: transparent url('../images/input-search.png') left top no-repeat;
+        font:15px/19px "Helvetica Neue", Helvetica, Geogia, serif;
+}
+div#header .box-search button {
+	display: block;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 170px;
+	height: 57px;
+	border: 0 none;
+	background: transparent url('../images/button-search.png') left top no-repeat;
+}
+div#header .box-search button span {
+	display: none;
+}

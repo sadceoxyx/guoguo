@@ -1,0 +1,19 @@
+
+/* Normal
+-----------------------------------------*/
+
+@font-face {
+/*	font-family: 'Luckiest Guy';
+	src: url('../fonts/luckiestguy.eot');
+	font-style: normal;
+	font-weight: normal;*/
+/*        font: 15px Georgia,serif;*/
+        font: Arial, Helvetica, sans-serif
+}
+@font-face {
+/*	font-family: 'Luckiest Guy';
+	src: url(//:) format('no404'), url('../fonts/luckiestguy.woff') format('woff'), url('../fonts/luckiestguy.ttf') format('truetype'), url('../fonts/luckiestguy.svg#webfontr0D2VFsS') format('svg');
+	font-style: normal;
+	font-weight: normal;*/
+        font: Arial, Helvetica, sans-serif;
+}
